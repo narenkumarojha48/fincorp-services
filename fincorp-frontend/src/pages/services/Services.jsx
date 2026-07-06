@@ -1,6 +1,6 @@
 import DocumentUpload from "../../components/docpload/DocumentUpload";
 import DocUploader from "../../components/docpload/DocUploader";
-import { PhotoCanvas } from "../../components/canvas/photoCanvas";
+import PhotoCanvas from "../../components/canvas/PhotoCanvas";
 import DocumentProcessor from "../../components/docpload/DocumentProcessor";
 import KYCScanner from "../../components/canvas/KYCScanner";
 import "./services.css";
