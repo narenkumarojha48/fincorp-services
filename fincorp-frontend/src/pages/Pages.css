@@ -1,0 +1,61 @@
+/* Container for policy pages */
+/* .page-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+} */
+ .page-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 35px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.page-container h1 {
+  font-size: 30px;
+  color: #1b4f7a;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 10px;
+}
+
+/* Section titles */
+.page-container h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #0f172a;
+}
+
+.page-container p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+/* Lists if used */
+.page-container ul {
+  padding-left: 20px;
+}
+
+.page-container li {
+  margin-bottom: 8px;
+}
+
+.page-container a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.page-container a:hover {
+  text-decoration: underline;
+}

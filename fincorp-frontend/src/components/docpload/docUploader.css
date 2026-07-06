@@ -1,0 +1,115 @@
+/* Container for the whole form */
+.upload-container {
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    
+}
+
+.doc-card {
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+.doc-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.progress-container{
+    background-color: #b0c4da;
+    width: 150px;
+    border-radius: 4px;
+    height: 8px;
+}
+.progress-bar{
+  background-color: #074587;
+  /* width: 50px; */
+  height: 8px;
+  border-radius: 4px;
+}
+.doc-label {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 12px;
+    font-size: .9rem;
+}
+.file-input-wrapper input[type="file"] {
+    display: block;
+    width: 100%;
+    color: #666;
+    padding: 5px 0;
+}
+
+.preview-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #f0f7ff;
+    padding: 12px;
+    border-radius: 6px;
+    margin-top: 15px;
+    border: 1px solid #d0e3ff;
+}
+.preview-thumb {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.pdf-placeholder {
+    width: 50px;
+    height: 50px;
+    background: #ffeded;
+    color: #d32f2f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+.remove-btn {
+    background: none;
+    border: none;
+    color: #ff4d4f;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.remove-btn:hover {
+    background: #fff1f0;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
